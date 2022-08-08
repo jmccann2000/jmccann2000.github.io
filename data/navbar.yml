@@ -1,0 +1,17 @@
+options:
+  - label: "Resume"
+    filename: resume.html
+    subitems: 
+      - label: Relevant coursework
+        filename: coursework.html
+      - label: Software experience
+        filename: software.html
+  - label: "Projects"
+    filename: projects.html
+    subitems: 
+      - label: Work projects
+        filename: work_projects.html
+      - label: Personal projects
+        filename: work_projects.html
+      - label: School projects
+        filename: work_projects.html

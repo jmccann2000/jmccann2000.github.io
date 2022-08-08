@@ -1,0 +1,6 @@
+<a href="#Item-1"><%= option_yml.label %></a>
+<ul class="menu">
+<% option_yml.subitems.each do |subitem| %>
+    <li><a href="#"><%= subitem.label %></a></li>
+<% end %>
+</ul>
