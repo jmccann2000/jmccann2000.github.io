@@ -13,7 +13,10 @@
   </head>
   <body>
     <%= partial 'partials/navbar' %>
-    <%= yield %>
+    <div id="main-container">
+      <h2 class="page-title"><%= current_page.data.page_name %></h2>
+      <%= yield %>
+    </div>
 
     <script src="javascripts/vendor/jquery.js"></script>
     <script src="javascripts/vendor/what-input.js"></script>

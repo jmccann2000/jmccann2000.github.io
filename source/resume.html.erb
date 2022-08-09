@@ -1,0 +1,10 @@
+---
+title: Jake McCann - Resume
+page_name: Resume
+---
+
+<% data.navbar.options.select { |option| option.label == current_page.data.page_name }.each do |option| %>
+    <% option.subitems.each do |sub_option|%>
+        <h4 id="<%= sub_option.section %>"><%= sub_option.label %></h4>
+    <% end %>
+<% end %>
