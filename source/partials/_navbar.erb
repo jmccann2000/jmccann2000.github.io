@@ -4,9 +4,9 @@
         <ul class="dropdown menu" data-dropdown-menu>
             <li class="menu-text">Jake McCann</li>
             <% data.navbar.options.each do |option|%>
-                <li>
-                <%= partial "partials/navbar_option", :locals => {:option_yml => option}%>
-                </li>
+              <li>
+              <%= partial "partials/navbar_option", :locals => {:option_yml => option}%>
+              </li>
             <% end %>
         </ul>
     </div>

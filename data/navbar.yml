@@ -2,10 +2,12 @@ options:
   - label: Resume
     filename: resume.html
     subitems: 
-      - label: Relevant coursework
-        section: coursework
-      - label: Software experience
-        section: software
+      - label: Education
+        section: education
+      - label: Skills
+        section: Skills
+      - label: Work experience
+        section: work
   - label: Projects
     filename: projects.html
     subitems: 

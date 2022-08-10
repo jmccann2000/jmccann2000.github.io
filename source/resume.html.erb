@@ -3,8 +3,43 @@ title: Jake McCann - Resume
 page_name: Resume
 ---
 
-<% data.navbar.options.select { |option| option.label == current_page.data.page_name }.each do |option| %>
-    <% option.subitems.each do |sub_option|%>
-        <h4 id="<%= sub_option.section %>"><%= sub_option.label %></h4>
+<div class="resume-section">
+    <h3 class="page-subsection">Education</h3>
+    <div class="resume-section-content">
+    <% data.resume_sections.education.lines.each do |line| %>
+        <div class="content-meat">
+            <%= line %>
+        </div>
     <% end %>
-<% end %>
+    </div>
+</div>
+
+<div class="resume-section">
+    <h3 class="page-subsection">Skills</h3>
+    <div class="resume-section-content">
+    <% data.resume_sections.skills.sections.each do |section| %>
+    <div>
+        <span class="content-header"><b> <%= section.label %></b>: </span>
+        <span class="content-meat"> 
+        <%= section.content.join ", " %>
+        </span>
+    </div>
+    <% end %>
+    </div>
+</div>
+
+<div class="resume-section">
+    <h3 class="page-subsection">Work Experience</h3>
+    <div class="resume-section-content">
+    <% data.resume_sections.work_exp.jobs.each do |job| %>
+        <div class="content-header"><b><%= job.title %></b></div>
+        <ul>
+        <% job.lines.each do |line| %>
+            <li class="content-meat"><%= line %></li>
+        <% end %>
+        </ul>
+    <% end %>
+    </div>
+</div>
+
+

@@ -1,0 +1,43 @@
+sections:
+  - label: Programming languages 
+    content: 
+    - Java
+    - Python
+    - ruby
+    - VisualBasic
+    - C#
+    - C
+    - SQL
+    - JavaScript
+    - MATLAB
+    - HTML
+  - label: Software experience
+    content: 
+    - Git
+    - GDB
+    - rail
+    - Azure
+    - DotNet
+    - NUnit
+    - Oracle SQL Developer
+    - React
+    - LINQ
+    - Excel
+    - Word
+    - Powerpoint
+    - Access
+  - label: Operating systems
+    content:
+    - Windows
+    - Linux
+  - label: Relevant coursework
+    content:
+    - Fundamentals of Component Driven Development
+    - Algorithm Analysis
+    - Calculus 1-3
+    - Linear Algebra
+    - Engineering Statistics
+    - Technical Communication
+    - Fundamentals of Engineering Sequence
+    - Web App Group Development
+    - Fundamentals of Networking
